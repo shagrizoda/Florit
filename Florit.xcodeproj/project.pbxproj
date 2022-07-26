@@ -17,6 +17,10 @@
 		460BF1F728859C2400BD17D0 /* FloritTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BF1F628859C2400BD17D0 /* FloritTests.swift */; };
 		460BF20128859C2500BD17D0 /* FloritUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BF20028859C2500BD17D0 /* FloritUITests.swift */; };
 		460BF20328859C2500BD17D0 /* FloritUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460BF20228859C2500BD17D0 /* FloritUITestsLaunchTests.swift */; };
+		4669158A288FECBA0022A8DA /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 46691589288FECBA0022A8DA /* FlowerClassifier.mlmodel */; };
+		5B8ADFEAF8045AE4148B29D3 /* Pods_FloritTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC8BE7945C368723A4D959B /* Pods_FloritTests.framework */; };
+		5D80C2BCFED6F1079C08E747 /* Pods_Florit_FloritUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DA5EC164345FBC5E9C7BE77 /* Pods_Florit_FloritUITests.framework */; };
+		BC1A9C147DCA5A81BE0B8D11 /* Pods_Florit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DC17687BBDA3EE01A3F976 /* Pods_Florit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,16 @@
 		460BF1FC28859C2500BD17D0 /* FloritUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloritUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460BF20028859C2500BD17D0 /* FloritUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloritUITests.swift; sourceTree = "<group>"; };
 		460BF20228859C2500BD17D0 /* FloritUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloritUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		46691589288FECBA0022A8DA /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
+		4DA5EC164345FBC5E9C7BE77 /* Pods_Florit_FloritUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Florit_FloritUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A79AF13EB47E6F65F58761 /* Pods-Florit-FloritUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Florit-FloritUITests.debug.xcconfig"; path = "Target Support Files/Pods-Florit-FloritUITests/Pods-Florit-FloritUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3EEE96591321BDFB71FF328 /* Pods-Florit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Florit.debug.xcconfig"; path = "Target Support Files/Pods-Florit/Pods-Florit.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B213B1408D3E2E818FFCF3 /* Pods-FloritTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloritTests.release.xcconfig"; path = "Target Support Files/Pods-FloritTests/Pods-FloritTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F270E3FCEB99506A4B60EA /* Pods-Florit-FloritUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Florit-FloritUITests.release.xcconfig"; path = "Target Support Files/Pods-Florit-FloritUITests/Pods-Florit-FloritUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFC8BE7945C368723A4D959B /* Pods_FloritTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloritTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C538B2325D730FF86F532B64 /* Pods-FloritTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloritTests.debug.xcconfig"; path = "Target Support Files/Pods-FloritTests/Pods-FloritTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4DC17687BBDA3EE01A3F976 /* Pods_Florit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Florit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD86A46D09EEDE9B0D4EC1E0 /* Pods-Florit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Florit.release.xcconfig"; path = "Target Support Files/Pods-Florit/Pods-Florit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1A9C147DCA5A81BE0B8D11 /* Pods_Florit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8ADFEAF8045AE4148B29D3 /* Pods_FloritTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D80C2BCFED6F1079C08E747 /* Pods_Florit_FloritUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				460BF1F528859C2400BD17D0 /* FloritTests */,
 				460BF1FF28859C2500BD17D0 /* FloritUITests */,
 				460BF1DA28859C2100BD17D0 /* Products */,
+				7B548BEB1E6488ECFBEF44F1 /* Pods */,
+				7A29C7615D545667B5D3B10A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,7 @@
 				460BF1DE28859C2100BD17D0 /* SceneDelegate.swift */,
 				460BF1E028859C2100BD17D0 /* ViewController.swift */,
 				460BF1E228859C2100BD17D0 /* Main.storyboard */,
+				46691589288FECBA0022A8DA /* FlowerClassifier.mlmodel */,
 				460BF1E828859C2400BD17D0 /* Assets.xcassets */,
 				460BF1EA28859C2400BD17D0 /* LaunchScreen.storyboard */,
 				460BF1ED28859C2400BD17D0 /* Info.plist */,
@@ -130,6 +150,29 @@
 			path = FloritUITests;
 			sourceTree = "<group>";
 		};
+		7A29C7615D545667B5D3B10A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4DC17687BBDA3EE01A3F976 /* Pods_Florit.framework */,
+				4DA5EC164345FBC5E9C7BE77 /* Pods_Florit_FloritUITests.framework */,
+				BFC8BE7945C368723A4D959B /* Pods_FloritTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B548BEB1E6488ECFBEF44F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3EEE96591321BDFB71FF328 /* Pods-Florit.debug.xcconfig */,
+				FD86A46D09EEDE9B0D4EC1E0 /* Pods-Florit.release.xcconfig */,
+				53A79AF13EB47E6F65F58761 /* Pods-Florit-FloritUITests.debug.xcconfig */,
+				B9F270E3FCEB99506A4B60EA /* Pods-Florit-FloritUITests.release.xcconfig */,
+				C538B2325D730FF86F532B64 /* Pods-FloritTests.debug.xcconfig */,
+				A9B213B1408D3E2E818FFCF3 /* Pods-FloritTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 460BF20628859C2500BD17D0 /* Build configuration list for PBXNativeTarget "Florit" */;
 			buildPhases = (
+				F628E28244FF1DE1F23AC163 /* [CP] Check Pods Manifest.lock */,
 				460BF1D528859C2100BD17D0 /* Sources */,
 				460BF1D628859C2100BD17D0 /* Frameworks */,
 				460BF1D728859C2100BD17D0 /* Resources */,
+				5B8F34491B3181987A0BC730 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 460BF20928859C2500BD17D0 /* Build configuration list for PBXNativeTarget "FloritTests" */;
 			buildPhases = (
+				F1C47AFCC43519ABD629FCA6 /* [CP] Check Pods Manifest.lock */,
 				460BF1EE28859C2400BD17D0 /* Sources */,
 				460BF1EF28859C2400BD17D0 /* Frameworks */,
 				460BF1F028859C2400BD17D0 /* Resources */,
@@ -172,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 460BF20C28859C2500BD17D0 /* Build configuration list for PBXNativeTarget "FloritUITests" */;
 			buildPhases = (
+				404311E9BA15580CD3F9B942 /* [CP] Check Pods Manifest.lock */,
 				460BF1F828859C2500BD17D0 /* Sources */,
 				460BF1F928859C2500BD17D0 /* Frameworks */,
 				460BF1FA28859C2500BD17D0 /* Resources */,
+				BA634C35956DC5BB1C4AF967 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		404311E9BA15580CD3F9B942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Florit-FloritUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B8F34491B3181987A0BC730 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Florit/Pods-Florit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Florit/Pods-Florit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Florit/Pods-Florit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA634C35956DC5BB1C4AF967 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Florit-FloritUITests/Pods-Florit-FloritUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Florit-FloritUITests/Pods-Florit-FloritUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Florit-FloritUITests/Pods-Florit-FloritUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C47AFCC43519ABD629FCA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FloritTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F628E28244FF1DE1F23AC163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Florit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		460BF1D528859C2100BD17D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +415,7 @@
 				460BF1E128859C2100BD17D0 /* ViewController.swift in Sources */,
 				460BF1DD28859C2100BD17D0 /* AppDelegate.swift in Sources */,
 				460BF1DF28859C2100BD17D0 /* SceneDelegate.swift in Sources */,
+				4669158A288FECBA0022A8DA /* FlowerClassifier.mlmodel in Sources */,
 				460BF1E728859C2100BD17D0 /* Florit.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +588,7 @@
 		};
 		460BF20728859C2500BD17D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3EEE96591321BDFB71FF328 /* Pods-Florit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +617,7 @@
 		};
 		460BF20828859C2500BD17D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD86A46D09EEDE9B0D4EC1E0 /* Pods-Florit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +646,7 @@
 		};
 		460BF20A28859C2500BD17D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C538B2325D730FF86F532B64 /* Pods-FloritTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +667,7 @@
 		};
 		460BF20B28859C2500BD17D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B213B1408D3E2E818FFCF3 /* Pods-FloritTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +688,7 @@
 		};
 		460BF20D28859C2500BD17D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A79AF13EB47E6F65F58761 /* Pods-Florit-FloritUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +707,7 @@
 		};
 		460BF20E28859C2500BD17D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F270E3FCEB99506A4B60EA /* Pods-Florit-FloritUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
